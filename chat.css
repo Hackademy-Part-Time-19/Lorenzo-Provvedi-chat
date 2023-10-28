@@ -1,7 +1,7 @@
 body
 {
- background-color:darkgrey;
- margin-bottom: 0;
+ background-color:white;
+
 }
 
 .intero-corpo
@@ -15,7 +15,7 @@ body
  position: absolute;
  display: flex;
  flex-direction: row;
- border-width: 1px;
+ 
  
 }
 
@@ -25,24 +25,30 @@ body
  
  display: flex;
  flex-direction: column;
- border: solid;
- border-color: gray;
- border-width: 1px;
+ 
+ 
  
 }
 
 .top-left-body
 {
- flex:0.5;
+ 
  background-color: white;
  display: flex;
  flex-direction: row;
  justify-content: space-between;
  align-items: center;
+ border-bottom: solid;
  border-width: 1px;
- border: solid;
- border-color: gray;
- 
+ border-color: lightgray;
+ border-top: solid 1px;
+ border-color: lightgray;
+ border-left: solid 1px;
+ border-color: lightgray;
+ border-top-left-radius: 10px;
+ border-right:solid 1px;
+ border-color: lightgray;
+ height: 40px;
 }
 
 .testo-top-left-body
@@ -71,6 +77,15 @@ body
  padding-right: 10px;
 }
 
+.div-dimenticato
+{
+ height:50px;
+ border-left: solid 1px;
+ border-color: lightgray;
+ border-right:solid 1px;
+ color:lightgray;
+}
+
 .search-left-body
 {
  flex:0.5;
@@ -81,10 +96,10 @@ body
  align-items: center;
  margin-left:10px;
  margin-right: 10px;
- margin-top:6px;
+ margin-top: 6px;
  background-color: lightgray;
- 
- 
+ height: 80%;
+ border-radius: 5px;
 }
 
 .search-search-left-body
@@ -104,6 +119,7 @@ body
 .option-search-left-body
 {
  height: 20px;
+ padding-right:8px;
 }
 
 .navigation-left-body
@@ -125,17 +141,26 @@ body
 .chat-left-body
 {
  flex:6;
- margin-top:5px;
+ 
  display: flex;
  flex-direction: column;
  overflow-y: scroll;
+ border-left:solid 1px;
+ border-color:lightgray;
+ border-right:solid 1px;
+ border-color:lightgray;
+ overflow-x: hidden;
 }
 
 .contatto
 {
  flex:1;
  
- position: relative;   
+ flex: 1;
+ margin-bottom: 40px;
+ position: relative;
+ 
+ 
 }
 
 img
@@ -151,30 +176,55 @@ img
  display: flex;
  flex-direction: column;
  justify-content: start;
- 
- background-color: azure;
+ border-bottom: solid;
+ border-width: 1px;
+ border-color: lightgrey;
  position: absolute;
  top:0;
- left:70px;
+ left: 72px;
+ width: 100%;
+ height: 80px;
+ 
+ 
 }
 
 p
 {
- display: block;
- font-size: 15px;
+ 
+ font-size: 14px;
  margin-top:2px;
  margin-bottom:2px;
  margin-left: 4px;
+ line-height: 1.3;
+
+}
+
+.nome-ora
+{
+ display: flex; 
+ flex-direction: row; 
+ justify-content: space-between;
+ 
+ margin-right: 80px;
+ align-items: center;
+ 
+}
+
+.stella
+{
+ height: 19px;
+ padding-left: 0;
 }
 
 span
 {
- margin-left:60px;
+ font-size: 15px;
+ 
 }
 
 
 .right-body
 {
  flex:3;
- background-color: blue;
+ background-color: antiquewhite;
 }
