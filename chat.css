@@ -1,12 +1,12 @@
 body
 {
- background-color:white;
+ background-color:rgb(240, 240, 240);
 
 }
 
 .intero-corpo
 {
- background-color: white;
+ background-color: rgb(240, 240, 240);
  height: 90vh;
  width: 60vw;
  margin-left: 150px;
@@ -48,7 +48,7 @@ body
  border-top-left-radius: 10px;
  border-right:solid 1px;
  border-color: lightgray;
- height: 40px;
+ height: 50px;
 }
 
 .testo-top-left-body
@@ -84,6 +84,7 @@ body
  border-color: lightgray;
  border-right:solid 1px;
  color:lightgray;
+ background-color: white;
 }
 
 .search-left-body
@@ -129,6 +130,7 @@ body
  flex-direction: row;
  justify-content: start;
  align-items: center;
+ background-color: white;
 }
 
 .testo-navigation-left-body
@@ -150,6 +152,7 @@ body
  border-right:solid 1px;
  border-color:lightgray;
  overflow-x: hidden;
+ background-color: white;
 }
 
 .contatto
@@ -226,5 +229,163 @@ span
 .right-body
 {
  flex:3;
- background-color: antiquewhite;
+ background-color: rgb(240, 240, 240);
+ display: flex;
+ flex-direction: column;
+}
+
+.top-right-body
+{
+ height: 50px;
+ background-color: white;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ border: solid;
+ border-width: 1px 1px 1px 0px;
+ border-color: lightgray;
+ border-top-right-radius: 10px;
+}
+
+.autore-citazione-top-right-body
+{
+ margin-left: 10px;
+ padding-top: 6px;
+ padding-bottom: 6px;
+}
+
+.nome-autore-top-right-body
+{
+ font-weight: bold;
+ font-size: 15px;
+}
+
+.testo-autore-top-right-body
+{
+ font-size: 14px;
+}
+
+.icona-top-right-body
+{
+ padding-right: 10px;
+}
+
+.chat-right-body
+{
+ height:600px ;
+ display:flex ;
+ flex-direction: column;
+ background-color: white;
+ overflow-y: scroll;
+ 
+}
+
+.div-chat-right-body
+{
+ display: flex;
+ justify-content: start;
+ margin-top:20px ;
+ margin-bottom: 20px;
+ 
+}
+
+.info-contatto-right-body
+{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ border-bottom: solid 1px;
+ border-color: lightgray;
+}
+
+.contatto-right-body
+{
+ height: 40px;
+ 
+ 
+ 
+}
+.nome-contatto
+{
+ font-size:15px;
+ font-weight: bold;
+ padding-left: 3px;
+}
+
+.ora-contatto
+{
+ color: lightgray;
+ font-size: 14px;
+}
+
+.inizio-messaggio
+{
+ font-size: 15px;
+ padding-left: 3px;
+}
+
+.messaggio-right-body
+{
+ height: 96px;
+ display: flex;
+ align-items: start;
+ border: solid;
+ border-width: 1px 1px 0px 0px;
+ border-color: lightgray;
+ background-color: white;
+}
+
+.scrivi-messaggio
+{
+ border: none;
+ width: 100%;
+ font-size: 13px;
+ padding:10px 0px 0px 10px;
+}
+
+.icona-invio-messaggio
+{
+ height:40px;
+ padding-right: 12px;
+ 
+}
+
+.icon-right-body
+{
+ height: 95px;
+ background-color: white;
+ display: flex;
+ justify-content: space-between;
+ border: solid;
+ border-width: 1px 1px 0px 0px;
+ border-color: lightgray;
+ background-color: rgb(245, 245, 245);
+}
+
+.icons
+{
+ height: 20px;
+ margin-top:10px;
+ 
+}
+
+.iconright-right-body
+{
+ 
+ 
+}
+
+.button-icon-right-body
+{
+ border-radius: 100px;
+ border: none;
+ color: darkgray;
+ padding:6px 15px 6px 15px;
+ margin-top: 10px;
+}
+
+.annuncio
+{
+ flex:2.2;
+ background-color: rgb(240, 240, 240);
 }
